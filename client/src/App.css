@@ -1,0 +1,366 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  overflow: hidden;
+}
+.box1 {
+  background-color: red;
+  height: 40px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+.box1:hover {
+  transform: scale(1.2);
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+h4 {
+  text-align: center;
+  color: white;
+  font-size: 15px;
+}
+.Line {
+  height: 72px;
+  width: 3.1px;
+  background-color: black;
+}
+
+.second-container {
+  height: 450px;
+  width: 510px;
+  top: 150px;
+  display: flex;
+  border-top: 3.1px solid #000;
+  justify-content: space-between;
+}
+
+.Lines1 {
+  background-color: #000;
+  height: 80px;
+  width: 3.1px;
+}
+.box-container {
+  height: 70px;
+  width: 600px;
+  margin-top: -390px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.box {
+  height: 40px;
+  width: 110px;
+  background-color: black;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.box:hover {
+  transform: scale(1.2);
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+.third-box {
+  height: 70px;
+  width: 540px;
+  margin-top: -14px;
+  display: flex;
+  justify-content: space-between;
+}
+.innerLines {
+  height: 80px;
+  width: 3.1px;
+  background-color: black;
+}
+.third-box-container {
+  height: 70px;
+  width: 700px;
+  margin-top: -14px;
+  display: flex;
+  justify-content: space-between;
+}
+.my-box {
+  height: 70px;
+  width: 110px;
+  margin-top: 23px;
+  border-top: 3.1px solid black;
+  border-left: 3.1px solid black;
+  border-right: 3.1px solid black;
+}
+.part-box {
+  width: 800px;
+  height: 150px;
+  display: flex;
+  gap: 2px;
+  justify-content: center;
+}
+.new {
+  height: 150px;
+  width: 150px;
+  display: flex;
+  gap: 50px;
+}
+.part1 {
+  height: 120px;
+  width: 50px;
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 5px;
+}
+.part1:hover {
+  transform: scale(1.2);
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+h2 {
+  transform: rotate(90deg);
+}
+.partLines {
+  height: 72px;
+  width: 710px;
+  margin-top: -28px;
+  border-left: 3.2px solid black;
+}
+.big-box {
+  height: 72px;
+  width: 900px;
+  display: flex;
+  gap: 5px;
+}
+.small-box {
+  height: 72px;
+  width: 00px;
+  border-top: 3.1px solid #000;
+}
+
+.main-box {
+  width: 200px;
+  height: 72px;
+  display: flex;
+  gap: 5px;
+}
+.part-main-box {
+  width: 100px;
+  height: 40px;
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.part-main-box:hover {
+  transform: scale(1.2);
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  background-color: skyblue;
+}
+.Vfinal-box {
+  width: 3.1px;
+  height: 30px;
+  background-color: #000;
+  margin-top: 70px;
+}
+.final-container-line {
+  width: 700px;
+  height: 70px;
+
+  display: flex;
+  gap: 10px;
+}
+.final {
+  width: 150px;
+  height: 40px;
+  border-top: 3.1px solid #000;
+  border-right: 3.1px solid #000;
+  border-left: 3.1px solid #000;
+}
+.main-block {
+  width: 800px;
+  height: 70px;
+  margin-top: -26px;
+  display: flex;
+  gap: 1px;
+}
+.block {
+  height: 40px;
+  width: 210px;
+  display: flex;
+  gap: 5px;
+}
+.block-box {
+  height: 40px;
+  width: 100px;
+  background-color: blue;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.block :hover {
+  transform: scale(1.1);
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+.last{
+  width: 710px;
+  height: 100px;
+  margin-top: -29px;
+  display: flex;
+  gap:10px
+}
+.last-box{
+  width: 300px;
+  height: 70px;
+  border-left: 3.1px solid black;
+  border-right: 3.1px solid black;
+}
+.concluding{
+  width: 800px;
+  height: 70px;
+  margin-top: -30px;
+}
+.concluding-box{
+  width: 400px;
+  height: 50px;
+  border-top: 3.1px solid black;
+}
+.VL{
+  height: 100px;
+  width: 3.1px;
+  background-color: black;
+  margin-top: -70px;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+/* Add media query for smaller screens */
+@media screen and (max-width: 900px) {
+  .second-container {
+    width: 90%; /* Adjust width for smaller screens */
+    flex-wrap: wrap; /* Allow items to wrap */
+  }
+
+  .box-container {
+    width: 90%; /* Adjust width for smaller screens */
+    flex-wrap: wrap; /* Allow items to wrap */
+  }
+
+  .third-box {
+    width: 90%; /* Adjust width for smaller screens */
+    flex-wrap: wrap; /* Allow items to wrap */
+  }
+
+  .third-box-container {
+    width: 90%; /* Adjust width for smaller screens */
+    flex-wrap: wrap; /* Allow items to wrap */
+  }
+
+  .part-box {
+    width: 90%; /* Adjust width for smaller screens */
+    flex-wrap: wrap; /* Allow items to wrap */
+  }
+
+  .big-box {
+    width: 90%; /* Adjust width for smaller screens */
+    flex-wrap: wrap; /* Allow items to wrap */
+  }
+
+  .final-container-line {
+    width: 90%; /* Adjust width for smaller screens */
+    flex-wrap: wrap; /* Allow items to wrap */
+  }
+
+  .main-block {
+    width: 90%; /* Adjust width for smaller screens */
+    flex-wrap: wrap; /* Allow items to wrap */
+  }
+
+  .last {
+    width: 90%; /* Adjust width for smaller screens */
+    flex-wrap: wrap; /* Allow items to wrap */
+  }
+
+  .concluding {
+    width: 90%; /* Adjust width for smaller screens */
+    flex-wrap: wrap; /* Allow items to wrap */
+  }
+
+  .secondcol {
+    display: flex;
+    gap: 20px;
+    margin-left: 10px; /* Adjust margin for smaller screens */
+  }
+}
+.card-container{
+  z-index: 999;
+  background-color: rgb(245, 241, 241);
+  height: 400px;
+  width: 400px;
+  margin-left: -300px;
+  transition: all 0.2s ease-in-out;
+  border-radius: 5px;
+  margin-top: -200px;
+  display: flex;
+  flex-direction: column;
+  gap:5px
+
+}
+.chart1{
+  margin-left: 35px;
+  margin-top: 45px;
+  height: 30px;
+  width: 200px;
+  background-color: skyblue;
+}.chart2{
+  margin-left: 35px;
+  height: 30px;
+  width: 180px;
+  background-color: skyblue;
+}.chart3{
+  margin-left: 35px;
+  height: 30px;
+  width: 150px;
+  background-color: skyblue;
+}
+/* .secondcol{
+  display: flex;
+  gap:200px;
+  margin-left: 450px;
+  position: fixed;
+
+}
+@media screen and (max-width: 900px) {
+  .VLine{
+    height: 300px;
+    width: 3.1px;;
+    background-color:black;
+    transform: rotate(90deg);
+    margin-top: 200px;
+    position: fixed;
+    top:4px
+  }
+
+  .secondcol{
+
+
+    margin-left:50px;
+    gap:20px;
+
+  }
+}
